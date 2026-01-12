@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CDK2 AI Drug Discovery  
 **Eminent Biosciences (EMBS)**
 
@@ -46,3 +47,8 @@ This work introduces a **conformation-aware generative artificial intelligence f
 
 ## Repository Structure
 
+=======
+CDK2 AI Discovery
+
+This project focuses on AI-driven discovery for CDK2.
+>>>>>>> ebc203433922815d2fcf279f5100aecaf3b6eca4
