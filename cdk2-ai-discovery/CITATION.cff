@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Conformationally informed generative artificial intelligence for CDK2 inhibitor discovery"
+message: "If you use this software, please cite the associated manuscript."
+authors:
+  - family-names: Nayarisseri
+    given-names: Anuraj
+    affiliation: Eminent Biosciences (EMBS)
+    email: anuraj@eminentbio.com
+version: 1.0.0
+date-released: 2026-01-12
+repository-code: "https://github.com/AnurajNayarisseri/EMBS-lab/tree/main/cdk2-ai-discovery"
