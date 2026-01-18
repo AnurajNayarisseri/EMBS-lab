@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+
+title: "PROSPECT: Probabilistic Single-cell and Spatial Epistemic Context Toolkit"
+
+message: >
+  If you use PROSPECT in your research, please cite the following work.
+
+type: software
+
+authors:
+  - family-names: Nayarisseri
+    given-names: Anuraj
+    name-particle: Dr.
+    affiliation: Eminent Biosciences (EMBS)
+    orcid: https://orcid.org/0000-0003-2567-9630
+
+repository-code: "https://github.com/AnurajNayarisseri/EMBS-lab/PROSPECT"
+
+license: MIT
+
+version: 0.1.0
+
+date-released: 2026-01-01
+
+keywords:
+  - single-cell RNA-seq
+  - spatial transcriptomics
+  - probabilistic modeling
+  - artificial intelligence
+  - uncertainty-aware analysis
+  - bioinformatics
+  - systems biology
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Nayarisseri
+      given-names: Anuraj
+  title: "A probabilistic AI framework for spatial and single-cell transcriptomics"
+  journal: "Nature Methods"
+  status: "under review"
