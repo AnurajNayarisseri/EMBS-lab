@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this software or code, please cite it using the metadata below."
+
+title: "AI-Guided Plasticizer Hydrolase Prediction and Hybrid Genome Analysis of Rhizobium pusense KSSKSLAB04"
+
+type: software
+
+authors:
+
+* family-names: Sharma
+  given-names: Khushboo
+  affiliation: Eminent Biosciences (EMBS), India
+* family-names: Nayarisseri
+  given-names: Anuraj
+  affiliation: Eminent Biosciences (EMBS), India
+  orcid: "https://orcid.org/0000-0003-2567-9630"
+* family-names: Singh
+  given-names: Sanjeev Kumar
+  affiliation: Alagappa University, India
+
+affiliation: Eminent Biosciences (EMBS)
+repository-code: "https://github.com/YOUR-USERNAME/YOUR-REPOSITORY"
+url: "https://www.eminentbio.com"
+
+version: "1.0.0"
+date-released: "2026-02-15"
+
+license: MIT
+
+keywords:
+
+* Plasticizer biodegradation
+* Machine learning
+* Genome sequencing
+* Bioinformatics
+* Environmental microbiology
+* Rhizobium pusense
+
+abstract: >
+This repository contains Python scripts, machine-learning pipelines,
+and genome visualization workflows used for hybrid genome sequencing
+analysis and AI-guided prediction of plasticizer-degrading enzymes
+in Rhizobium pusense KSSKSLAB04.
+
+preferred-citation:
+type: article
+title: "Hybrid genome sequencing and AI-guided enzyme prediction uncover plasticizer degradation pathways in Rhizobium pusense"
+authors:
+- family-names: Sharma
+given-names: Khushboo
+- family-names: Nayarisseri
+given-names: Anuraj
+- family-names: Singh
+given-names: Sanjeev Kumar
+journal: "To be updated after publication"
+year: 2026

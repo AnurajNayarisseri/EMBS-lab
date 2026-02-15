@@ -1,0 +1,97 @@
+name: plasticizer-ai
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # ----------------------------
+  # Core
+  # ----------------------------
+  - python=3.10
+  - pip
+
+  # ----------------------------
+  # Python scientific stack
+  # ----------------------------
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - joblib
+  - matplotlib
+  - seaborn
+  - tqdm
+  - h5py
+  - biopython
+
+  # Jupyter
+  - jupyter
+  - notebook
+  - ipykernel
+
+  # ----------------------------
+  # Deep learning (TensorFlow/Keras)
+  # ----------------------------
+  - tensorflow
+  - keras
+
+  # ----------------------------
+  # NGS / Bioinformatics tools used
+  # (as per your manuscript workflow)
+  # ----------------------------
+
+  # Read processing / QC
+  - fastp
+  - porechop
+  - filtlong
+  - seqkit
+
+  # Assembly
+  - canu
+  - flye
+  - unicycler
+  - shasta
+  - spades
+
+  # Alignment / polishing
+  - minimap2
+  - bwa
+  - samtools
+  - racon
+  - pilon
+
+  # Assembly QC / assessment
+  - quast
+  - busco
+  - checkm2
+  - bandage
+
+  # Annotation
+  - prokka
+  - bakta
+  - eggnog-mapper
+
+  # Comparative genomics / phylogenomics
+  - panaroo
+  - mafft
+  - iqtree
+  - fastani
+
+  # Protein domains / function (optional but commonly used)
+  - hmmer
+  - diamond
+
+  # Plasmid & mobile genetic elements
+  - mob_suite
+  - isescan
+  - minced
+
+  # Secondary metabolite prediction
+  - antismash
+
+  # ----------------------------
+  # Pip-only (optional extras)
+  # ----------------------------
+  - pip:
+      - pyyaml
