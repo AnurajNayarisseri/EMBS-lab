@@ -1,0 +1,4 @@
+model.0.weight torch.Size([128, 64])
+model.0.bias torch.Size([128])
+model.2.weight torch.Size([64, 128])
+model.2.bias torch.Size([64])
