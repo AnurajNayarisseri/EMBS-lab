@@ -1,0 +1,119 @@
+# =========================
+# General Settings
+# =========================
+project_name: "EGFR_AI_Drug_Discovery"
+random_seed: 42
+device: "auto"   # auto / cpu / cuda
+
+# =========================
+# Data Settings
+# =========================
+data:
+  input_file: "data/egfr_smiles.csv"
+  smiles_column: "smiles"
+  max_sequence_length: 100
+  train_split: 0.8
+  validation_split: 0.1
+  test_split: 0.1
+
+# =========================
+# Preprocessing
+# =========================
+preprocessing:
+  use_selfies: true
+  remove_invalid: true
+  canonicalize: true
+  max_vocab_size: 500
+  padding_token: "<pad>"
+  start_token: "<start>"
+  end_token: "<end>"
+
+# =========================
+# VAE Model
+# =========================
+vae:
+  embed_dim: 128
+  hidden_dim: 256
+  latent_dim: 64
+  num_layers: 1
+  dropout: 0.1
+
+  training:
+    epochs: 20
+    batch_size: 32
+    learning_rate: 0.001
+    kl_weight: 1.0
+    save_model: true
+    model_path: "models/vae.pt"
+
+# =========================
+# GAN Model
+# =========================
+gan:
+  latent_dim: 64
+  hidden_dim: 128
+
+  training:
+    epochs: 20
+    batch_size: 32
+    learning_rate: 0.0001
+    save_model: true
+    model_path: "models/gan.pt"
+
+# =========================
+# Reinforcement Learning
+# =========================
+rl:
+  iterations: 200
+  epsilon: 0.2
+  learning_rate: 0.1
+  batch_size: 50
+  rounds: 5
+
+# =========================
+# Reward Function
+# =========================
+reward:
+  weights:
+    lipinski: 1.5
+    properties: 1.0
+    qed: 2.0
+    synthetic_accessibility: 1.0
+    docking: 2.0
+
+  thresholds:
+    mw_min: 200
+    mw_max: 600
+    logp_min: -1
+    logp_max: 5
+
+# =========================
+# Docking Settings
+# =========================
+docking:
+  enabled: false
+  receptor_file: "egfr.pdbqt"
+  output_dir: "docking_results/"
+  exhaustiveness: 8
+  num_modes: 5
+
+# =========================
+# Generation Settings
+# =========================
+generation:
+  num_samples: 100
+  max_length: 100
+  temperature: 1.0
+
+# =========================
+# Logging & Output
+# =========================
+logging:
+  log_level: "INFO"
+  save_logs: true
+  log_file: "logs/run.log"
+
+output:
+  save_results: true
+  results_file: "results/top_molecules.csv"
+  top_k: 20
