@@ -52,6 +52,8 @@ class ConfGenerator(nn.Module):
         E = out[:, -1]
         D = (D + D.transpose(1,2)) / 2
         D = torch.abs(D)
+        eye = torch.eye(self.n_atoms, device=D.device, dtype=D.dtype).unsqueeze(0)
+        D = D * (1.0 - eye)
         return D, E
 
 
@@ -89,7 +91,7 @@ def distance_to_xyz(D):
     Converts distance matrix to 3D coordinates
     """
     n = D.shape[0]
-    J = torch.eye(n) - torch.ones(n,n)/n
+    J = torch.eye(n, device=D.device, dtype=D.dtype) - torch.ones(n,n,device=D.device,dtype=D.dtype)/n
     B = -0.5 * J @ (D**2) @ J
     eigvals, eigvecs = torch.linalg.eigh(B)
     coords = eigvecs[:, -3:] * torch.sqrt(torch.clamp(eigvals[-3:], min=1e-6))
@@ -112,7 +114,7 @@ class ConfGAN(nn.Module):
 
     def generate_conformer(self, motif_tensor):
         cond = self.mmg(motif_tensor)
-        z = torch.randn(cond.size(0), 128)
+        z = torch.randn(cond.size(0), 128, device=cond.device)
         D, E = self.G(z, cond)
         xyz = [distance_to_xyz(D[i]) for i in range(D.size(0))]
         return xyz, E
@@ -123,6 +125,11 @@ class ConfGAN(nn.Module):
 #############################################
 
 def energy_loss(D):
-    lj = torch.mean(1.0/(D+1e-6)**12 - 1.0/(D+1e-6)**6)
-    harmonic = torch.mean(D**2)
-    return lj + 0.1*harmonic
+    # Stable, dimensionless regularizer only; not a force-field energy.
+    n = D.shape[-1]
+    mask = ~torch.eye(n, device=D.device, dtype=torch.bool)
+    pair = D[..., mask].clamp(min=0.5, max=20.0)
+    repulsion = torch.mean(torch.relu(1.5 - pair) ** 2)
+    symmetry = torch.mean((D - D.transpose(-1, -2)) ** 2)
+    diagonal = torch.diagonal(D, dim1=-2, dim2=-1).pow(2).mean()
+    return repulsion + 0.1 * symmetry + 0.1 * diagonal

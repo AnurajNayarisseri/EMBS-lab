@@ -1,0 +1,9 @@
+stage,rows,note
+raw_activity_records,5367,ChEMBL API target CHEMBL301; standard types IC50/Ki/Kd
+activity_rows_joined_to_structures,5367,"5,361 rows have valid SMILES; invalid/missing rows retained in this audit file"
+valid_exact_ic50_nM_measurements,2794,IC50 only; exact relation; units converted to nM; valid SMILES
+unique_ic50_compounds,2115,Standardized SMILES; median IC50/pIC50; includes gray-zone compounds
+classification_compounds,2046,"Active <=10,000 nM; inactive >=20,000 nM; gray zone excluded"
+classification_train,1637,Scaffold grouped
+classification_validation,205,Scaffold grouped
+classification_test,204,Scaffold grouped; do not use for model selection

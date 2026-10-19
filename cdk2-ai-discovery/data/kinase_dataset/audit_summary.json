@@ -1,0 +1,15 @@
+{
+  "source": "ChEMBL public API",
+  "target_scope": "Human single-protein kinase-like targets from saved activity records",
+  "requested_unique_compounds": 85000,
+  "actual_unique_standardized_compounds": 85000,
+  "activity_records_collected": 246134,
+  "unique_molecule_ids_with_activity": 114809,
+  "structure_records_saved": 114809,
+  "valid_standardized_structures_before_deduplication": 114667,
+  "unique_standardized_compounds_before_target_cap": 114428,
+  "rdkit_version": "2026.03.6",
+  "deduplication": "RDKit standardized InChIKey and canonical isomeric SMILES",
+  "fingerprints_written": true,
+  "important_note": "Public-source reconstruction; not the manuscript's original ~85,000-compound dataset."
+}

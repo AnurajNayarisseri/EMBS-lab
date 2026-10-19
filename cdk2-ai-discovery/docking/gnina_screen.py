@@ -1,98 +1,56 @@
-import os
-import subprocess
+"""GNINA screening wrapper. Requires GNINA, Open Babel, and prepared structures.
+Use a ligand-bound reference ligand to define the autobox; never use the full
+receptor as --autobox_ligand.
+"""
+import argparse,shutil,subprocess,tempfile
+from pathlib import Path
 import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import AllChem
 
-##############################################
-# CONFIG (matches your manuscript)
-##############################################
+def require(cmd):
+ if shutil.which(cmd) is None: raise RuntimeError(f'{cmd} not found on PATH; install it separately.')
 
-PDB_ID = "1AQ1"
-RECEPTOR = "cdk2_clean.pdb"
-GNINA = "gnina"   # must be in PATH
-EXHAUSTIVENESS = "16"
-NUM_MODES = "10"
+def smiles_to_pdbqt(smiles,out_path):
+ mol=Chem.MolFromSmiles(str(smiles))
+ if mol is None: raise ValueError(f'Invalid SMILES: {smiles}')
+ mol=Chem.AddHs(mol)
+ if AllChem.EmbedMolecule(mol,randomSeed=42)!=0: raise RuntimeError('RDKit conformer generation failed')
+ if AllChem.MMFFOptimizeMolecule(mol)!=0: AllChem.UFFOptimizeMolecule(mol)
+ molfile=out_path.with_suffix('.sdf'); w=Chem.SDWriter(str(molfile));w.write(mol);w.close()
+ subprocess.run(['obabel',str(molfile),'-O',str(out_path)],check=True,capture_output=True,text=True)
+ return out_path
 
-##############################################
-# Prepare CDK2 receptor
-##############################################
+def parse_gnina(text):
+ # GNINA output tables usually include CNNscore and CNNaffinity columns.
+ lines=text.splitlines();
+ for i,line in enumerate(lines):
+  if 'CNNscore' in line and 'CNNaffinity' in line:
+   headers=line.split()
+   for row in lines[i+1:]:
+    vals=row.split()
+    if len(vals)>=len(headers):
+     try:
+      d=dict(zip(headers,vals)); return float(d.get('CNNscore','nan')),float(d.get('CNNaffinity','nan'))
+     except ValueError: continue
+ return None,None
 
-def prepare_receptor():
-    if not os.path.exists(RECEPTOR):
-        print("Preparing CDK2 receptor from PDB 1AQ1")
-        os.system(f"wget https://files.rcsb.org/download/{PDB_ID}.pdb -O {PDB_ID}.pdb")
-        os.system(f"grep -v HETATM {PDB_ID}.pdb > {RECEPTOR}")
-
-##############################################
-# Convert SMILES to 3D PDBQT
-##############################################
-
-def smiles_to_pdbqt(smiles, outname):
-    mol = Chem.MolFromSmiles(smiles)
-    mol = Chem.AddHs(mol)
-    AllChem.EmbedMolecule(mol, AllChem.ETKDG())
-    AllChem.UFFOptimizeMolecule(mol)
-    Chem.MolToMolFile(mol, f"{outname}.mol")
-
-    os.system(f"obabel {outname}.mol -O {outname}.pdbqt")
-
-##############################################
-# Run GNINA Docking
-##############################################
-
-def dock_ligand(ligand_name):
-    cmd = [
-        GNINA,
-        "-r", RECEPTOR,
-        "-l", f"{ligand_name}.pdbqt",
-        "--autobox_ligand", f"{PDB_ID}.pdb",
-        "--num_modes", NUM_MODES,
-        "--exhaustiveness", EXHAUSTIVENESS,
-        "--score_only"
-    ]
-
-    result = subprocess.check_output(cmd).decode()
-
-    # Extract CNN affinity
-    for line in result.split("\n"):
-        if "CNNscore" in line:
-            return float(line.split()[-1])
-
-    return None
-
-##############################################
-# Screen AI-generated molecules
-##############################################
-
-def screen_library(smiles_csv):
-    prepare_receptor()
-
-    df = pd.read_csv(smiles_csv)   # columns: Name, SMILES
-    results = []
-
-    for i, row in df.iterrows():
-        name = row["Name"]
-        smi = row["SMILES"]
-
-        print(f"Docking {name}")
-        smiles_to_pdbqt(smi, name)
-
-        score = dock_ligand(name)
-
-        results.append([name, smi, score])
-
-    out = pd.DataFrame(results, columns=["Name", "SMILES", "CNN_Affinity"])
-    out = out.sort_values("CNN_Affinity", ascending=False)
-    out.to_csv("../results/gnina_ranked_hits.csv", index=False)
-
-    print("Top 10 hits:")
-    print(out.head(10))
-
-
-##############################################
-# Main
-##############################################
-
-if __name__ == "__main__":
-    screen_library("../results/ai_generated_hits.csv")
+def main():
+ p=argparse.ArgumentParser();p.add_argument('--input',required=True,help='CSV with Name and SMILES columns');p.add_argument('--receptor',required=True,help='Prepared receptor PDBQT');p.add_argument('--reference-ligand',required=True,help='PDBQT/SDF/MOL reference ligand defining binding-site box');p.add_argument('--outdir',default='results/gnina');p.add_argument('--exhaustiveness',type=int,default=16);p.add_argument('--num-modes',type=int,default=10);a=p.parse_args()
+ require('gnina');require('obabel'); inp=pd.read_csv(a.input)
+ for c in ['Name','SMILES']:
+  if c not in inp: raise ValueError(f'Input CSV needs column {c}')
+ receptor=Path(a.receptor).resolve(); ref=Path(a.reference_ligand).resolve()
+ if not receptor.is_file() or not ref.is_file(): raise FileNotFoundError('Receptor or reference ligand file does not exist')
+ out=Path(a.outdir);out.mkdir(parents=True,exist_ok=True); rows=[]
+ for i,r in inp.iterrows():
+  name=str(r['Name']); safe=''.join(c if c.isalnum() or c in '-_' else '_' for c in name)[:80] or f'ligand_{i}'
+  try:
+   ligand=smiles_to_pdbqt(str(r['SMILES']),out/f'{safe}.pdbqt')
+   cmd=['gnina','-r',str(receptor),'-l',str(ligand),'--autobox_ligand',str(ref),'--num_modes',str(a.num_modes),'--exhaustiveness',str(a.exhaustiveness)]
+   proc=subprocess.run(cmd,capture_output=True,text=True,check=True); score,aff=parse_gnina(proc.stdout+'\n'+proc.stderr)
+   rows.append({'Name':name,'SMILES':r['SMILES'],'CNNscore':score,'CNNaffinity':aff,'status':'ok'})
+  except Exception as e: rows.append({'Name':name,'SMILES':r['SMILES'],'CNNscore':None,'CNNaffinity':None,'status':f'error: {e}'})
+  print(f'[{i+1}/{len(inp)}] {name}: {rows[-1]["status"]}')
+ pd.DataFrame(rows).to_csv(out/'gnina_results.csv',index=False)
+if __name__=='__main__':main()

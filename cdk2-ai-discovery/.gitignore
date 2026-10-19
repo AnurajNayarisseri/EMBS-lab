@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ipynb_checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.sdf
+*.pdbqt
+*.mol
+*.log
+results/tmp/

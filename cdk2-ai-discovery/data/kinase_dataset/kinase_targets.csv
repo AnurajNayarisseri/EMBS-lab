@@ -1,0 +1,550 @@
+target_chembl_id,target_name,organism
+CHEMBL1862,Tyrosine-protein kinase ABL1,Homo sapiens
+CHEMBL1824,Receptor tyrosine-protein kinase erbB-2,Homo sapiens
+CHEMBL3629,Casein kinase II subunit alpha,Homo sapiens
+CHEMBL2159,Nucleoside diphosphate kinase A,Homo sapiens
+CHEMBL2160,Nucleoside diphosphate kinase B,Homo sapiens
+CHEMBL2468,Death-associated protein kinase 3,Homo sapiens
+CHEMBL2469,Uridine-cytidine kinase 2,Homo sapiens
+CHEMBL3142,DNA-dependent protein kinase catalytic subunit,Homo sapiens
+CHEMBL2447,Deoxycytidine kinase,Homo sapiens
+CHEMBL3961,Mitogen-activated protein kinase 11,Homo sapiens
+CHEMBL2883,"Thymidine kinase, cytosolic",Homo sapiens
+CHEMBL258,Tyrosine-protein kinase Lck,Homo sapiens
+CHEMBL2886,Phosphoglycerate kinase 1,Homo sapiens
+CHEMBL4883,Urokinase plasminogen activator surface receptor,Homo sapiens
+CHEMBL3589,Adenosine kinase,Homo sapiens
+CHEMBL260,Mitogen-activated protein kinase 14,Homo sapiens
+CHEMBL4938,"Adenylate kinase 2, mitochondrial",Homo sapiens
+CHEMBL262,Glycogen synthase kinase-3 beta,Homo sapiens
+CHEMBL2918,cAMP-dependent protein kinase catalytic subunit beta,Homo sapiens
+CHEMBL3438,Protein kinase C zeta type,Homo sapiens
+CHEMBL2171,Dual specificity mitogen-activated protein kinase kinase 6,Homo sapiens
+CHEMBL2428,"Myosin light chain kinase, smooth muscle",Homo sapiens
+CHEMBL2426,Casein kinase I isoform gamma-1,Homo sapiens
+CHEMBL3847,5'-AMP-activated protein kinase subunit beta-1,Homo sapiens
+CHEMBL4708,Serine/threonine-protein kinase 3,Homo sapiens
+CHEMBL2393,5'-AMP-activated protein kinase subunit gamma-1,Homo sapiens
+CHEMBL2828,Casein kinase I isoform delta,Homo sapiens
+CHEMBL4948,Dual specificity mitogen-activated protein kinase kinase 5,Homo sapiens
+CHEMBL4121,Calcium/calmodulin-dependent protein kinase type II subunit beta,Homo sapiens
+CHEMBL2506,Phosphatidylinositol 3-kinase regulatory subunit alpha,Homo sapiens
+CHEMBL267,Proto-oncogene tyrosine-protein kinase Src,Homo sapiens
+CHEMBL2109,Dual specificity mitogen-activated protein kinase kinase 3,Homo sapiens
+CHEMBL2508,Cyclin-dependent kinase 6,Homo sapiens
+CHEMBL2527,Serine/threonine-protein kinase Chk2,Homo sapiens
+CHEMBL2534,3-phosphoinositide-dependent protein kinase 1,Homo sapiens
+CHEMBL2116,5'-AMP-activated protein kinase catalytic subunit alpha-2,Homo sapiens
+CHEMBL2117,5'-AMP-activated protein kinase subunit beta-2,Homo sapiens
+CHEMBL2453,5'-AMP-activated protein kinase subunit gamma-2,Homo sapiens
+CHEMBL2431,RAC-beta serine/threonine-protein kinase,Homo sapiens
+CHEMBL4816,RAC-gamma serine/threonine-protein kinase,Homo sapiens
+CHEMBL4079,Beta-adrenergic receptor kinase 1,Homo sapiens
+CHEMBL3476,Inhibitor of nuclear factor kappa-B kinase subunit alpha,Homo sapiens
+CHEMBL1991,Inhibitor of nuclear factor kappa-B kinase subunit beta,Homo sapiens
+CHEMBL3123,Death-associated protein kinase 2,Homo sapiens
+CHEMBL2185,Aurora kinase B,Homo sapiens
+CHEMBL3125,Ribosomal protein S6 kinase alpha-4,Homo sapiens
+CHEMBL3231,Rho-associated protein kinase 1,Homo sapiens
+CHEMBL2147,Serine/threonine-protein kinase pim-1,Homo sapiens
+CHEMBL3032,Serine/threonine-protein kinase N2,Homo sapiens
+CHEMBL2634,Tyrosine-protein kinase CSK,Homo sapiens
+CHEMBL2148,Tyrosine-protein kinase JAK3,Homo sapiens
+CHEMBL4237,Ribosomal protein S6 kinase alpha-5,Homo sapiens
+CHEMBL3582,Protein kinase C epsilon type,Homo sapiens
+CHEMBL2938,Protein kinase C gamma type,Homo sapiens
+CHEMBL2595,Serine/threonine-protein kinase D3,Homo sapiens
+CHEMBL3861,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial",Homo sapiens
+CHEMBL3023,Sphingosine kinase 2,Homo sapiens
+CHEMBL2598,Protein kinase C iota type,Homo sapiens
+CHEMBL3863,Serine/threonine-protein kinase D1,Homo sapiens
+CHEMBL1906,RAF proto-oncogene serine/threonine-protein kinase,Homo sapiens
+CHEMBL2599,Tyrosine-protein kinase SYK,Homo sapiens
+CHEMBL3024,Serine/threonine-protein kinase PLK1,Homo sapiens
+CHEMBL2959,Tyrosine-protein kinase ITK/TSK,Homo sapiens
+CHEMBL2835,Tyrosine-protein kinase JAK1,Homo sapiens
+CHEMBL2553,Ribosomal protein S6 kinase alpha-1,Homo sapiens
+CHEMBL2971,Tyrosine-protein kinase JAK2,Homo sapiens
+CHEMBL4924,Ribosomal protein S6 kinase alpha-6,Homo sapiens
+CHEMBL2972,"ATP-dependent 6-phosphofructokinase, platelet type",Homo sapiens
+CHEMBL4925,Adenylate kinase isoenzyme 1,Homo sapiens
+CHEMBL4926,"Adenylate kinase 4, mitochondrial",Homo sapiens
+CHEMBL4928,cAMP-dependent protein kinase type I-alpha regulatory subunit,Homo sapiens
+CHEMBL4937,Casein kinase I isoform epsilon,Homo sapiens
+CHEMBL2493,Calcium/calmodulin-dependent protein kinase type 1,Homo sapiens
+CHEMBL2494,Calcium/calmodulin-dependent protein kinase type IV,Homo sapiens
+CHEMBL2656,Creatine kinase M-type,Homo sapiens
+CHEMBL2850,Glycogen synthase kinase-3 alpha,Homo sapiens
+CHEMBL2896,cGMP-dependent protein kinase 2,Homo sapiens
+CHEMBL4273,cGMP-dependent protein kinase 1,Homo sapiens
+CHEMBL2964,Dual specificity mitogen-activated protein kinase kinase 2,Homo sapiens
+CHEMBL2897,Dual specificity mitogen-activated protein kinase kinase 4,Homo sapiens
+CHEMBL2939,Mitogen-activated protein kinase 13,Homo sapiens
+CHEMBL2208,MAP kinase-activated protein kinase 2,Homo sapiens
+CHEMBL3094,MAP kinase-activated protein kinase 5,Homo sapiens
+CHEMBL3096,"Phosphoenolpyruvate carboxykinase [GTP], mitochondrial",Homo sapiens
+CHEMBL2973,Rho-associated protein kinase 2,Homo sapiens
+CHEMBL2558,Death-associated protein kinase 1,Homo sapiens
+CHEMBL3130,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform",Homo sapiens
+CHEMBL4014,Tyrosine-protein kinase ABL2,Homo sapiens
+CHEMBL2695,Focal adhesion kinase 1,Homo sapiens
+CHEMBL2191,"ATP-dependent 6-phosphofructokinase, liver type",Homo sapiens
+CHEMBL4004,"Phosphorylase b kinase gamma catalytic chain, skeletal muscle/heart isoform",Homo sapiens
+CHEMBL4005,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",Homo sapiens
+CHEMBL4045,5'-AMP-activated protein kinase catalytic subunit alpha-1,Homo sapiens
+CHEMBL2688,Hexokinase-1,Homo sapiens
+CHEMBL2709,Hexokinase-3,Homo sapiens
+CHEMBL2842,Serine/threonine-protein kinase mTOR,Homo sapiens
+CHEMBL4179,Mitogen-activated protein kinase 9,Homo sapiens
+CHEMBL2637,Mitogen-activated protein kinase 10,Homo sapiens
+CHEMBL3587,Dual specificity mitogen-activated protein kinase kinase 1,Homo sapiens
+CHEMBL2638,Ribose-phosphate pyrophosphokinase 1,Homo sapiens
+CHEMBL2640,Hexokinase-2,Homo sapiens
+CHEMBL3291,"ATP-dependent 6-phosphofructokinase, muscle type",Homo sapiens
+CHEMBL3844,Phosphorylase kinase beta subunit,Homo sapiens
+CHEMBL2221,cAMP-dependent protein kinase type II-alpha regulatory subunit,Homo sapiens
+CHEMBL3616,Protein kinase C eta type,Homo sapiens
+CHEMBL2801,Calcium/calmodulin-dependent protein kinase type II subunit delta,Homo sapiens
+CHEMBL3116,Cyclin-dependent kinase 9,Homo sapiens
+CHEMBL3117,Choline kinase alpha,Homo sapiens
+CHEMBL2543,Casein kinase I isoform gamma-2,Homo sapiens
+CHEMBL299,Protein kinase C alpha type,Homo sapiens
+CHEMBL3045,Protein kinase C beta type,Homo sapiens
+CHEMBL3384,Serine/threonine-protein kinase N1,Homo sapiens
+CHEMBL4040,Mitogen-activated protein kinase 1,Homo sapiens
+CHEMBL3385,Mitogen-activated protein kinase 3,Homo sapiens
+CHEMBL301,Cyclin-dependent kinase 2,Homo sapiens
+CHEMBL2250,Tyrosine-protein kinase Blk,Homo sapiens
+CHEMBL3220,Phosphatidylinositol 4-kinase type 2-beta,Homo sapiens
+CHEMBL2251,Phosphatidylinositol 4-kinase type 2-alpha,Homo sapiens
+CHEMBL4989,Guanylate kinase,Homo sapiens
+CHEMBL2793,Casein kinase I isoform alpha,Homo sapiens
+CHEMBL1841,Tyrosine-protein kinase Fyn,Homo sapiens
+CHEMBL3234,Tyrosine-protein kinase HCK,Homo sapiens
+CHEMBL3905,Tyrosine-protein kinase Lyn,Homo sapiens
+CHEMBL3906,Ribosomal protein S6 kinase alpha-2,Homo sapiens
+CHEMBL4175,Megakaryocyte-associated tyrosine-protein kinase,Homo sapiens
+CHEMBL2708,Mitogen-activated protein kinase kinase kinase 11,Homo sapiens
+CHEMBL2873,Mitogen-activated protein kinase kinase kinase 10,Homo sapiens
+CHEMBL4394,Sphingosine kinase 1,Homo sapiens
+CHEMBL2999,Serine/threonine-protein kinase PAK 3,Homo sapiens
+CHEMBL2911,"Phosphoenolpyruvate carboxykinase, cytosolic [GTP]",Homo sapiens
+CHEMBL3267,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",Homo sapiens
+CHEMBL3667,Phosphatidylinositol 4-kinase alpha,Homo sapiens
+CHEMBL3268,Phosphatidylinositol 4-kinase beta,Homo sapiens
+CHEMBL3286,Urokinase-type plasminogen activator,Homo sapiens
+CHEMBL4101,cAMP-dependent protein kinase catalytic subunit alpha,Homo sapiens
+CHEMBL2743,cAMP-dependent protein kinase catalytic subunit gamma,Homo sapiens
+CHEMBL2320,cAMP-dependent protein kinase type I-beta regulatory subunit,Homo sapiens
+CHEMBL2270,cAMP-dependent protein kinase type II-beta regulatory subunit,Homo sapiens
+CHEMBL2777,"Myosin light chain kinase 2, skeletal/cardiac muscle",Homo sapiens
+CHEMBL2872,Mitogen-activated protein kinase kinase kinase 9,Homo sapiens
+CHEMBL2290,Integrin-linked kinase-associated serine/threonine phosphatase 2C,Homo sapiens
+CHEMBL308,Cyclin-dependent kinase 1,Homo sapiens
+CHEMBL2292,Dual specificity tyrosine-phosphorylation-regulated kinase 1A,Homo sapiens
+CHEMBL2300,Glycerol kinase,Homo sapiens
+CHEMBL2803,Tyrosine-protein kinase ZAP-70,Homo sapiens
+CHEMBL2996,Protein kinase C delta type,Homo sapiens
+CHEMBL2276,Mitogen-activated protein kinase 8,Homo sapiens
+CHEMBL3956,Mitogen-activated protein kinase kinase kinase 1,Homo sapiens
+CHEMBL4147,Calcium/calmodulin-dependent protein kinase type II subunit alpha,Homo sapiens
+CHEMBL4388,Thymidylate kinase,Homo sapiens
+CHEMBL3145,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Homo sapiens
+CHEMBL4488,"Nucleoside diphosphate kinase, mitochondrial",Homo sapiens
+CHEMBL2906,"Phosphorylase b kinase regulatory subunit alpha, liver isoform",Homo sapiens
+CHEMBL2783,Cyclin-dependent kinase 5 activator 1,Homo sapiens
+CHEMBL3920,Protein kinase C theta type,Homo sapiens
+CHEMBL4282,RAC-alpha serine/threonine-protein kinase,Homo sapiens
+CHEMBL1974,Receptor-type tyrosine-protein kinase FLT3,Homo sapiens
+CHEMBL4766,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 1, mitochondrial",Homo sapiens
+CHEMBL3893,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 3, mitochondrial",Homo sapiens
+CHEMBL4141,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 4, mitochondrial",Homo sapiens
+CHEMBL3553,Non-receptor tyrosine-protein kinase TYK2,Homo sapiens
+CHEMBL3009,Receptor tyrosine-protein kinase erbB-4,Homo sapiens
+CHEMBL2343,Serine/threonine-protein kinase Sgk1,Homo sapiens
+CHEMBL2345,Ribosomal protein S6 kinase alpha-3,Homo sapiens
+CHEMBL2349,"Phosphorylase b kinase gamma catalytic chain, liver/testis isoform",Homo sapiens
+CHEMBL4070,Casein kinase II subunit alpha',Homo sapiens
+CHEMBL2358,Casein kinase II subunit beta,Homo sapiens
+CHEMBL4442,Cyclin-dependent kinase 3,Homo sapiens
+CHEMBL3055,Cyclin-dependent kinase 7,Homo sapiens
+CHEMBL3529,Inhibitor of nuclear factor kappa-B kinase subunit epsilon,Homo sapiens
+CHEMBL3530,Dual specificity mitogen-activated protein kinase kinase 7,Homo sapiens
+CHEMBL4501,Ribosomal protein S6 kinase beta-1,Homo sapiens
+CHEMBL331,Cyclin-dependent kinase 4,Homo sapiens
+CHEMBL4036,Cyclin-dependent kinase 5,Homo sapiens
+CHEMBL4627,Myosin light chain kinase,Homo sapiens
+CHEMBL4630,Serine/threonine-protein kinase Chk1,Homo sapiens
+CHEMBL4674,Mitogen-activated protein kinase 12,Homo sapiens
+CHEMBL4437,Phosphatidylinositol 3-kinase regulatory subunit beta,Homo sapiens
+CHEMBL3111,Ribosomal protein S6 kinase beta-2,Homo sapiens
+CHEMBL2073,Tyrosine-protein kinase Yes,Homo sapiens
+CHEMBL3357,Interleukin-1 receptor-associated kinase 1,Homo sapiens
+CHEMBL3778,Interleukin-1 receptor-associated kinase 4,Homo sapiens
+CHEMBL3886,Mitogen-activated protein kinase kinase kinase 20,Homo sapiens
+CHEMBL4722,Aurora kinase A,Homo sapiens
+CHEMBL5026,Eukaryotic elongation factor 2 kinase,Homo sapiens
+CHEMBL4355,Cyclin-G-associated kinase,Homo sapiens
+CHEMBL5014,Receptor-interacting serine/threonine-protein kinase 2,Homo sapiens
+CHEMBL3820,Hexokinase-4,Homo sapiens
+CHEMBL5021,Cyclin-dependent kinase inhibitor 1,Homo sapiens
+CHEMBL3797,Serine-protein kinase ATM,Homo sapiens
+CHEMBL5024,Serine/threonine-protein kinase ATR,Homo sapiens
+CHEMBL3935,Aurora kinase C,Homo sapiens
+CHEMBL3830,AP2-associated protein kinase 1,Homo sapiens
+CHEMBL3831,Serine/threonine-protein kinase MARK2,Homo sapiens
+CHEMBL3829,Calcium/calmodulin-dependent protein kinase type II subunit gamma,Homo sapiens
+CHEMBL3788,Serine/threonine-protein kinase PLK4,Homo sapiens
+CHEMBL3938,Serine/threonine-protein kinase 16,Homo sapiens
+CHEMBL3980,Serine/threonine-protein kinase 17B,Homo sapiens
+CHEMBL3981,Serine/threonine-protein kinase 10,Homo sapiens
+CHEMBL3982,Tyrosine-protein kinase Fer,Homo sapiens
+CHEMBL3983,Dual specificity protein kinase TTK,Homo sapiens
+CHEMBL4223,Tyrosine-protein kinase FRK,Homo sapiens
+CHEMBL4224,Dual specificity protein kinase CLK1,Homo sapiens
+CHEMBL4225,Dual specificity protein kinase CLK2,Homo sapiens
+CHEMBL4226,Dual specificity protein kinase CLK3,Homo sapiens
+CHEMBL3834,Cytoplasmic tyrosine-protein kinase BMX,Homo sapiens
+CHEMBL3835,Serine/threonine-protein kinase Nek2,Homo sapiens
+CHEMBL3836,LIM domain kinase 1,Homo sapiens
+CHEMBL4597,Cyclin-dependent kinase 16,Homo sapiens
+CHEMBL4599,Activated CDC42 kinase 1,Homo sapiens
+CHEMBL4598,Serine/threonine-protein kinase 4,Homo sapiens
+CHEMBL4600,Serine/threonine-protein kinase PAK 1,Homo sapiens
+CHEMBL4601,Protein-tyrosine kinase 6,Homo sapiens
+CHEMBL5073,Calcium/calmodulin-dependent protein kinase type 1D,Homo sapiens
+CHEMBL5256,Calcium/calmodulin-dependent protein kinase kinase 1,Homo sapiens
+CHEMBL5257,Serine/threonine-protein kinase Nek9,Homo sapiens
+CHEMBL5258,Calcium/calmodulin-dependent protein kinase type 1G,Homo sapiens
+CHEMBL5284,Calcium/calmodulin-dependent protein kinase kinase 2,Homo sapiens
+CHEMBL3984,Membrane-associated tyrosine- and threonine-specific cdc2-inhibitory kinase,Homo sapiens
+CHEMBL5285,Mitogen-activated protein kinase kinase kinase 5,Homo sapiens
+CHEMBL4202,STE20-like serine/threonine-protein kinase,Homo sapiens
+CHEMBL4203,Dual specificity protein kinase CLK4,Homo sapiens
+CHEMBL4204,MAP kinase-interacting serine/threonine-protein kinase 2,Homo sapiens
+CHEMBL4309,Serine/threonine-protein kinase Nek6,Homo sapiens
+CHEMBL4311,Serine/threonine-protein kinase PAK 6,Homo sapiens
+CHEMBL4312,Serine/threonine-protein kinase 36,Homo sapiens
+CHEMBL4522,BMP-2-inducible protein kinase,Homo sapiens
+CHEMBL4523,Serine/threonine-protein kinase pim-2,Homo sapiens
+CHEMBL4524,Serine/threonine-protein kinase PAK 5,Homo sapiens
+CHEMBL4525,Serine/threonine-protein kinase 17A,Homo sapiens
+CHEMBL4527,TRAF2 and NCK-interacting protein kinase,Homo sapiens
+CHEMBL4851,Serine/threonine-protein kinase 38-like,Homo sapiens
+CHEMBL4852,Mitogen-activated protein kinase kinase kinase kinase 5,Homo sapiens
+CHEMBL4853,Mitogen-activated protein kinase kinase kinase 4,Homo sapiens
+CHEMBL5455,Tyrosine-protein kinase Fes/Fps,Homo sapiens
+CHEMBL4487,Serine/threonine-protein kinase PAK 2,Homo sapiens
+CHEMBL5443,Cell division cycle 7-related protein kinase,Homo sapiens
+CHEMBL2041,Proto-oncogene tyrosine-protein kinase receptor Ret,Homo sapiens
+CHEMBL4482,Serine/threonine-protein kinase PAK 4,Homo sapiens
+CHEMBL5251,Tyrosine-protein kinase BTK,Homo sapiens
+CHEMBL5491,Wee1-like protein kinase,Homo sapiens
+CHEMBL5164,Inositol-trisphosphate 3-kinase A,Homo sapiens
+CHEMBL5165,Inositol-trisphosphate 3-kinase B,Homo sapiens
+CHEMBL5145,Serine/threonine-protein kinase B-raf,Homo sapiens
+CHEMBL4454,Tyrosine-protein kinase Fgr,Homo sapiens
+CHEMBL5600,MAP/microtubule affinity-regulating kinase 3,Homo sapiens
+CHEMBL4580,"Thymidine kinase 2, mitochondrial",Homo sapiens
+CHEMBL5212,"Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 3",Homo sapiens
+CHEMBL4895,Tyrosine-protein kinase receptor UFO,Homo sapiens
+CHEMBL4896,Lymphokine-activated killer T-cell-originated protein kinase,Homo sapiens
+CHEMBL4897,Serine/threonine-protein kinase PLK3,Homo sapiens
+CHEMBL4899,Mitogen-activated protein kinase kinase kinase 8,Homo sapiens
+CHEMBL4900,Serine/threonine-protein kinase D2,Homo sapiens
+CHEMBL4247,ALK tyrosine kinase receptor,Homo sapiens
+CHEMBL4246,Tyrosine-protein kinase Tec,Homo sapiens
+CHEMBL4367,Tyrosine-protein kinase TXK,Homo sapiens
+CHEMBL4375,SRSF protein kinase 1,Homo sapiens
+CHEMBL4376,Dual specificity tyrosine-phosphorylation-regulated kinase 2,Homo sapiens
+CHEMBL3542,Serine/threonine-protein kinase NIM1,Homo sapiens
+CHEMBL5198,Mitogen-activated protein kinase 15,Homo sapiens
+CHEMBL4670,MAP kinase-activated protein kinase 3,Homo sapiens
+CHEMBL4718,MAP kinase-interacting serine/threonine-protein kinase 1,Homo sapiens
+CHEMBL4849,Serine/threonine-protein kinase Nek7,Homo sapiens
+CHEMBL4516,Serine/threonine-protein kinase MRCK alpha,Homo sapiens
+CHEMBL4574,Serine/threonine-protein kinase BRSK2,Homo sapiens
+CHEMBL4575,Dual specificity tyrosine-phosphorylation-regulated kinase 3,Homo sapiens
+CHEMBL4576,Homeodomain-interacting protein kinase 2,Homo sapiens
+CHEMBL4577,Homeodomain-interacting protein kinase 3,Homo sapiens
+CHEMBL4578,Maternal embryonic leucine zipper kinase,Homo sapiens
+CHEMBL5407,Serine/threonine-protein kinase pim-3,Homo sapiens
+CHEMBL5408,Serine/threonine-protein kinase TBK1,Homo sapiens
+CHEMBL5053,CDK-activating kinase assembly factor MAT1,Homo sapiens
+CHEMBL5274,Tyrosine-protein kinase receptor Tie-1,Homo sapiens
+CHEMBL5314,Tyrosine-protein kinase receptor TYRO3,Homo sapiens
+CHEMBL5316,Cyclin-dependent kinase 18,Homo sapiens
+CHEMBL5320,Myotonin-protein kinase,Homo sapiens
+CHEMBL5358,eIF-2-alpha kinase GCN2,Homo sapiens
+CHEMBL5364,Serine/threonine-protein kinase NLK,Homo sapiens
+CHEMBL5330,Mitogen-activated protein kinase kinase kinase kinase 2,Homo sapiens
+CHEMBL5331,Tyrosine-protein kinase Mer,Homo sapiens
+CHEMBL5332,Mitogen-activated protein kinase 7,Homo sapiens
+CHEMBL5334,Non-receptor tyrosine-protein kinase TNK1,Homo sapiens
+CHEMBL5388,Serine/threonine-protein kinase tousled-like 1,Homo sapiens
+CHEMBL5415,SRSF protein kinase 3,Homo sapiens
+CHEMBL5416,Cyclin-dependent kinase 11A,Homo sapiens
+CHEMBL5464,Receptor-interacting serine/threonine-protein kinase 1,Homo sapiens
+CHEMBL5469,Protein-tyrosine kinase 2-beta,Homo sapiens
+CHEMBL5543,Dual specificity tyrosine-phosphorylation-regulated kinase 1B,Homo sapiens
+CHEMBL5568,Proto-oncogene tyrosine-protein kinase ROS,Homo sapiens
+CHEMBL5604,Dual specificity testis-specific protein kinase 1,Homo sapiens
+CHEMBL5605,TGF-beta-activated kinase 1 and MAP3K7-binding protein 1,Homo sapiens
+CHEMBL5606,Serine/threonine-protein kinase STK11,Homo sapiens
+CHEMBL5607,Rhodopsin kinase GRK1,Homo sapiens
+CHEMBL5615,Serine/threonine-protein kinase MRCK gamma,Homo sapiens
+CHEMBL5044,Serine/threonine-protein kinase Nek5,Homo sapiens
+CHEMBL5046,Inositol hexakisphosphate and diphosphoinositol-pentakisphosphate kinase 1,Homo sapiens
+CHEMBL5047,Serine/threonine-protein kinase ULK3,Homo sapiens
+CHEMBL5052,Serine/threonine-protein kinase MRCK beta,Homo sapiens
+CHEMBL5081,Interleukin-1 receptor-associated kinase 3,Homo sapiens
+CHEMBL5082,Serine/threonine-protein kinase 24,Homo sapiens
+CHEMBL5084,Casein kinase I isoform gamma-3,Homo sapiens
+CHEMBL5095,Wee1-like protein kinase 2,Homo sapiens
+CHEMBL5116,Uncharacterized serine/threonine-protein kinase SBK3,Homo sapiens
+CHEMBL5121,Mitogen-activated protein kinase 6,Homo sapiens
+CHEMBL5260,Serine/threonine-protein kinase TNNI3K,Homo sapiens
+CHEMBL5261,Serine/threonine-protein kinase TAO1,Homo sapiens
+CHEMBL5404,Serine/threonine-protein kinase tousled-like 2,Homo sapiens
+CHEMBL5405,Serine/threonine-protein kinase 32C,Homo sapiens
+CHEMBL5426,Myosin light chain kinase family member 4,Homo sapiens
+CHEMBL5427,Homeodomain-interacting protein kinase 1,Homo sapiens
+CHEMBL5432,Mitogen-activated protein kinase kinase kinase kinase 3,Homo sapiens
+CHEMBL5435,Serine/threonine-protein kinase ULK2,Homo sapiens
+CHEMBL5518,Misshapen-like kinase 1,Homo sapiens
+CHEMBL5519,Serine/threonine-protein kinase DCLK2,Homo sapiens
+CHEMBL5520,Casein kinase I isoform alpha-like,Homo sapiens
+CHEMBL5547,Ankyrin repeat and protein kinase domain-containing protein 1,Homo sapiens
+CHEMBL5550,"Atypical kinase COQ8A, mitochondrial",Homo sapiens
+CHEMBL5552,Serine/threonine-protein kinase 25,Homo sapiens
+CHEMBL5554,Phosphatidylinositol 4-phosphate 3-kinase C2 domain-containing subunit beta,Homo sapiens
+CHEMBL5578,Cyclin-dependent kinase 2-associated protein 1,Homo sapiens
+CHEMBL5579,Citron Rho-interacting kinase,Homo sapiens
+CHEMBL5650,Serine/threonine-protein kinase BRSK1,Homo sapiens
+CHEMBL5651,Serine/threonine-protein kinase 35,Homo sapiens
+CHEMBL5659,Serine/threonine-protein kinase RIO3,Homo sapiens
+CHEMBL5683,Serine/threonine-protein kinase DCLK1,Homo sapiens
+CHEMBL5684,"Muscle, skeletal receptor tyrosine-protein kinase",Homo sapiens
+CHEMBL5719,Cyclin-dependent kinase 8,Homo sapiens
+CHEMBL5728,Cyclin-dependent kinase-like 2,Homo sapiens
+CHEMBL5749,Mitogen-activated protein kinase kinase kinase kinase 1,Homo sapiens
+CHEMBL5753,"Atypical kinase COQ8B, mitochondrial",Homo sapiens
+CHEMBL5754,MAP/microtubule affinity-regulating kinase 4,Homo sapiens
+CHEMBL5776,Mitogen-activated protein kinase kinase kinase 7,Homo sapiens
+CHEMBL5784,NUAK family SNF1-like kinase 1,Homo sapiens
+CHEMBL5785,"Interferon-induced, double-stranded RNA-activated protein kinase",Homo sapiens
+CHEMBL5808,Cyclin-dependent kinase 11B,Homo sapiens
+CHEMBL5818,cAMP-dependent protein kinase catalytic subunit PRKX,Homo sapiens
+CHEMBL5819,Serine/threonine-protein kinase Nek4,Homo sapiens
+CHEMBL5855,Serine/threonine-protein kinase Nek1,Homo sapiens
+CHEMBL5856,Cyclin-dependent kinase 15,Homo sapiens
+CHEMBL5888,Mitogen-activated protein kinase kinase kinase 14,Homo sapiens
+CHEMBL5932,LIM domain kinase 2,Homo sapiens
+CHEMBL5969,Phosphatidylinositol 4-phosphate 5-kinase type-1 alpha,Homo sapiens
+CHEMBL5970,Mitogen-activated protein kinase kinase kinase 3,Homo sapiens
+CHEMBL5975,Serine/threonine-protein kinase RIO1,Homo sapiens
+CHEMBL6000,Serine/threonine-protein kinase RIO2,Homo sapiens
+CHEMBL6002,Cyclin-dependent kinase 19,Homo sapiens
+CHEMBL6003,Testis-specific serine/threonine-protein kinase 1,Homo sapiens
+CHEMBL6005,Serine/threonine-protein kinase 33,Homo sapiens
+CHEMBL6006,Serine/threonine-protein kinase ULK1,Homo sapiens
+CHEMBL6010,Cyclin-dependent kinase 2-associated protein 2,Homo sapiens
+CHEMBL6082,Serine/threonine-protein kinase SIK1,Homo sapiens
+CHEMBL6083,Receptor-interacting serine/threonine-protein kinase 4,Homo sapiens
+CHEMBL6123,Serine/threonine-protein kinase DCLK3,Homo sapiens
+CHEMBL6162,Cyclin-dependent kinase 14,Homo sapiens
+CHEMBL6166,Mitogen-activated protein kinase kinase kinase kinase 4,Homo sapiens
+CHEMBL6167,Serine/threonine-protein kinase LATS1,Homo sapiens
+CHEMBL5627,Leukocyte tyrosine kinase receptor,Homo sapiens
+CHEMBL5667,Phosphatidylinositol 5-phosphate 4-kinase type-2 beta,Homo sapiens
+CHEMBL5668,SRSF protein kinase 2,Homo sapiens
+CHEMBL5698,NUAK family SNF1-like kinase 2,Homo sapiens
+CHEMBL5699,Serine/threonine-protein kinase SIK2,Homo sapiens
+CHEMBL5701,Serine/threonine-protein kinase TAO3,Homo sapiens
+CHEMBL5703,Tyrosine-protein kinase Srms,Homo sapiens
+CHEMBL5759,Mitogen-activated protein kinase 4,Homo sapiens
+CHEMBL5789,Cyclin-dependent kinase-like 1,Homo sapiens
+CHEMBL5790,Cyclin-dependent kinase 17,Homo sapiens
+CHEMBL5794,Serine/threonine-protein kinase Sgk2,Homo sapiens
+CHEMBL5861,G protein-coupled receptor kinase 4,Homo sapiens
+CHEMBL5907,Serine/threonine-protein kinase LATS2,Homo sapiens
+CHEMBL5912,Serine/threonine-protein kinase 32B,Homo sapiens
+CHEMBL5938,Serine/threonine-protein kinase PLK2,Homo sapiens
+CHEMBL5940,Serine/threonine-protein kinase MARK1,Homo sapiens
+CHEMBL5941,Serine/threonine-protein kinase 26,Homo sapiens
+CHEMBL6049,Creatine kinase B-type,Homo sapiens
+CHEMBL6014,Testis-specific serine/threonine-protein kinase 2,Homo sapiens
+CHEMBL6054,PAS domain-containing serine/threonine-protein kinase,Homo sapiens
+CHEMBL6055,Serine/threonine-protein kinase WNK3,Homo sapiens
+CHEMBL5678,G protein-coupled receptor kinase 5,Homo sapiens
+CHEMBL5679,Serine/threonine-protein kinase Nek3,Homo sapiens
+CHEMBL5681,UMP-CMP kinase,Homo sapiens
+CHEMBL5682,Uridine-cytidine kinase 1,Homo sapiens
+CHEMBL6144,G protein-coupled receptor kinase 6,Homo sapiens
+CHEMBL6177,NAD kinase,Homo sapiens
+CHEMBL6186,Serine/threonine-protein kinase Sgk3,Homo sapiens
+CHEMBL5638,Serine/threonine-protein kinase Nek11,Homo sapiens
+CHEMBL5639,Serine/threonine-protein kinase WNK2,Homo sapiens
+CHEMBL5997,"Deoxyguanosine kinase, mitochondrial",Homo sapiens
+CHEMBL6029,Eukaryotic translation initiation factor 2-alpha kinase 1,Homo sapiens
+CHEMBL6030,Eukaryotic translation initiation factor 2-alpha kinase 3,Homo sapiens
+CHEMBL5838,Receptor tyrosine-protein kinase erbB-3,Homo sapiens
+CHEMBL5914,Mitogen-activated protein kinase kinase kinase 2,Homo sapiens
+CHEMBL6149,Serine/threonine-protein kinase SIK3,Homo sapiens
+CHEMBL6150,Serine/threonine-protein kinase 32A,Homo sapiens
+CHEMBL6151,Serine/threonine-protein kinase 31,Homo sapiens
+CHEMBL6155,Thiamine pyrophosphokinase 1,Homo sapiens
+CHEMBL6191,Mitogen-activated protein kinase kinase kinase 19,Homo sapiens
+CHEMBL1075115,Dual specificity tyrosine-phosphorylation-regulated kinase 4,Homo sapiens
+CHEMBL1075120,Diacylglycerol kinase delta,Homo sapiens
+CHEMBL1075126,Pyruvate kinase PKLR,Homo sapiens
+CHEMBL1075133,Rhodopsin kinase GRK7,Homo sapiens
+CHEMBL1075157,Diacylglycerol kinase gamma,Homo sapiens
+CHEMBL1075152,Glucokinase regulatory protein,Homo sapiens
+CHEMBL1075155,Serine/threonine-protein kinase 38,Homo sapiens
+CHEMBL1075163,Serine/threonine-protein kinase haspin,Homo sapiens
+CHEMBL1075165,Phosphatidylinositol 3-kinase catalytic subunit type 3,Homo sapiens
+CHEMBL1075166,G protein-coupled receptor kinase 3,Homo sapiens
+CHEMBL1075167,Homeodomain-interacting protein kinase 4,Homo sapiens
+CHEMBL1075184,Proto-oncogene serine/threonine-protein kinase mos,Homo sapiens
+CHEMBL1075173,Serine/threonine-protein kinase WNK1,Homo sapiens
+CHEMBL1075181,Pyridoxal kinase,Homo sapiens
+CHEMBL1075187,Diacylglycerol kinase epsilon,Homo sapiens
+CHEMBL1075189,Pyruvate kinase PKM,Homo sapiens
+CHEMBL1075195,Serine/threonine-protein kinase TAO2,Homo sapiens
+CHEMBL1075102,Phosphatidylinositol 4-phosphate 3-kinase C2 domain-containing subunit alpha,Homo sapiens
+CHEMBL1075104,Leucine-rich repeat serine/threonine-protein kinase 2,Homo sapiens
+CHEMBL1163101,Serine/threonine-protein kinase/endoribonuclease IRE1,Homo sapiens
+CHEMBL1163104,Serine/threonine-protein kinase OSR1,Homo sapiens
+CHEMBL1163106,Serine/threonine-protein kinase MAK,Homo sapiens
+CHEMBL1163108,STE20/SPS1-related proline-alanine-rich protein kinase,Homo sapiens
+CHEMBL1163112,Cyclin-dependent kinase-like 5,Homo sapiens
+CHEMBL1163117,Cyclin-dependent kinase-like 3,Homo sapiens
+CHEMBL1163120,Phosphatidylinositol 3-kinase C2 domain-containing subunit gamma,Homo sapiens
+CHEMBL1163123,Mitogen-activated protein kinase kinase kinase 6,Homo sapiens
+CHEMBL1163124,Mitogen-activated protein kinase kinase kinase 13,Homo sapiens
+CHEMBL1163126,Serine/threonine-protein kinase ICK,Homo sapiens
+CHEMBL1163127,Mitogen-activated protein kinase kinase kinase 15,Homo sapiens
+CHEMBL1163128,Microtubule-associated serine/threonine-protein kinase 1,Homo sapiens
+CHEMBL1163129,Serine/threonine-protein kinase SBK1,Homo sapiens
+CHEMBL1169596,Serine/threonine-protein kinase A-Raf,Homo sapiens
+CHEMBL1275212,Ketohexokinase,Homo sapiens
+CHEMBL1293199,Serine/threonine-protein kinase VRK1,Homo sapiens
+CHEMBL1293257,Galactokinase,Homo sapiens
+CHEMBL1649059,Serine/threonine-protein kinase VRK2,Homo sapiens
+CHEMBL1741200,Hexokinase HKDC1,Homo sapiens
+CHEMBL1764936,Ceramide kinase,Homo sapiens
+CHEMBL1770034,Phosphatidylinositol 5-phosphate 4-kinase type-2 gamma,Homo sapiens
+CHEMBL1772932,Mitotic checkpoint serine/threonine-protein kinase BUB1,Homo sapiens
+CHEMBL1795165,Hormonally up-regulated neu tumor-associated kinase,Homo sapiens
+CHEMBL1795191,Cyclin-dependent kinase 10,Homo sapiens
+CHEMBL1795192,Cyclin-dependent kinase 13,Homo sapiens
+CHEMBL1795193,Ribosomal protein S6 kinase delta-1,Homo sapiens
+CHEMBL1795194,Phosphatidylinositol 5-phosphate 4-kinase type-2 alpha,Homo sapiens
+CHEMBL1795195,Serine/threonine-protein kinase SMG1,Homo sapiens
+CHEMBL1795196,Serine/threonine-protein kinase WNK4,Homo sapiens
+CHEMBL1795198,STE20-related kinase adapter protein alpha,Homo sapiens
+CHEMBL1795199,Receptor-interacting serine/threonine-protein kinase 3,Homo sapiens
+CHEMBL1908382,Serine/threonine-protein kinase PRP4 homolog,Homo sapiens
+CHEMBL1908383,Phosphatidylinositol 4-phosphate 5-kinase type-1 gamma,Homo sapiens
+CHEMBL1908384,SNF-related serine/threonine-protein kinase,Homo sapiens
+CHEMBL1908386,Dual serine/threonine and tyrosine protein kinase,Homo sapiens
+CHEMBL1908389,Mitogen-activated protein kinase kinase kinase 12,Homo sapiens
+CHEMBL1926492,Tau-tubulin kinase 1,Homo sapiens
+CHEMBL1938215,Kinase suppressor of Ras 1,Homo sapiens
+CHEMBL1938216,Connector enhancer of kinase suppressor of ras 2,Homo sapiens
+CHEMBL1938217,Mixed lineage kinase domain-like protein,Homo sapiens
+CHEMBL1938220,Inositol-tetrakisphosphate 1-kinase,Homo sapiens
+CHEMBL1938222,1-phosphatidylinositol 3-phosphate 5-kinase,Homo sapiens
+CHEMBL2069163,Dual specificity testis-specific protein kinase 2,Homo sapiens
+CHEMBL2150836,SRC kinase signaling inhibitor 1,Homo sapiens
+CHEMBL2189144,Phosphoinositide 3-kinase regulatory subunit 4,Homo sapiens
+CHEMBL2331053,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 3",Homo sapiens
+CHEMBL2375201,Tyrosine-protein kinase transmembrane receptor ROR2,Homo sapiens
+CHEMBL2417351,Microtubule-associated serine/threonine-protein kinase 4,Homo sapiens
+CHEMBL2417352,Microtubule-associated serine/threonine-protein kinase 3,Homo sapiens
+CHEMBL2417353,Serine/threonine-protein kinase Nek8,Homo sapiens
+CHEMBL2417354,"Acylglycerol kinase, mitochondrial",Homo sapiens
+CHEMBL2417355,Microtubule-associated serine/threonine-protein kinase 2,Homo sapiens
+CHEMBL3108655,Serine/threonine-protein kinase Nek10,Homo sapiens
+CHEMBL3112385,Choline/ethanolamine kinase,Homo sapiens
+CHEMBL3308982,CDC42BPA protein,Homo sapiens
+CHEMBL3337327,Tau-tubulin kinase 2,Homo sapiens
+CHEMBL3337330,"Serine/threonine-protein kinase PINK1, mitochondrial",Homo sapiens
+CHEMBL3407326,Pantothenate kinase 1,Homo sapiens
+CHEMBL3407327,"Pantothenate kinase 2, mitochondrial",Homo sapiens
+CHEMBL3407328,Pantothenate kinase 3,Homo sapiens
+CHEMBL3414416,Testis-specific serine/threonine-protein kinase 3,Homo sapiens
+CHEMBL3421524,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 1",Homo sapiens
+CHEMBL3421525,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 2",Homo sapiens
+CHEMBL3430761,Serine/threonine-protein kinase VRK3,Homo sapiens
+CHEMBL3559690,Cyclin-dependent kinase 20,Homo sapiens
+CHEMBL3559692,Cyclin-dependent kinase 12,Homo sapiens
+CHEMBL3559702,Phosphatidylinositol 3-kinase regulatory subunit gamma,Homo sapiens
+CHEMBL3588730,Tyrosine-protein kinase BAZ1B,Homo sapiens
+CHEMBL3627581,Serine/threonine-protein kinase N3,Homo sapiens
+CHEMBL3627582,Testis-specific serine/threonine-protein kinase 6,Homo sapiens
+CHEMBL3627583,Kinase suppressor of Ras 2,Homo sapiens
+CHEMBL3627584,Mitogen-activated protein kinase kinase kinase 21,Homo sapiens
+CHEMBL3627585,Inactive tyrosine-protein kinase PEAK1,Homo sapiens
+CHEMBL3627592,Calcium/calmodulin-dependent protein kinase type 1B,Homo sapiens
+CHEMBL3632457,Cyclin-dependent kinases regulatory subunit 1,Homo sapiens
+CHEMBL3632458,S-phase kinase-associated protein 2,Homo sapiens
+CHEMBL3721311,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 4",Homo sapiens
+CHEMBL3758070,Cyclin-dependent kinase inhibitor 1B,Homo sapiens
+CHEMBL4105755,Diacylglycerol kinase beta,Homo sapiens
+CHEMBL4105756,STE20-related kinase adapter protein beta,Homo sapiens
+CHEMBL4105759,Interleukin-1 receptor-associated kinase-like 2,Homo sapiens
+CHEMBL4105787,Diacylglycerol kinase alpha,Homo sapiens
+CHEMBL4105789,Putative phosphatidylinositol 4-kinase alpha-like protein P2,Homo sapiens
+CHEMBL4105826,Serine/threonine-protein kinase greatwall,Homo sapiens
+CHEMBL4105885,AarF domain-containing protein kinase 1,Homo sapiens
+CHEMBL4105886,Uncharacterized aarF domain-containing protein kinase 5,Homo sapiens
+CHEMBL4105932,Serine/threonine-protein kinase/endoribonuclease IRE2,Homo sapiens
+CHEMBL4105936,Putative nucleoside diphosphate kinase,Homo sapiens
+CHEMBL4105940,Diacylglycerol kinase eta,Homo sapiens
+CHEMBL4105942,Diacylglycerol kinase zeta,Homo sapiens
+CHEMBL4295800,A-kinase anchor protein 12,Homo sapiens
+CHEMBL4295868,Testis-specific serine/threonine-protein kinase 4,Homo sapiens
+CHEMBL4295878,MOB kinase activator 1B,Homo sapiens
+CHEMBL4295902,TGF-beta-activated kinase 1 and MAP3K7-binding protein 3,Homo sapiens
+CHEMBL4295927,"Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1",Homo sapiens
+CHEMBL4295947,Ketosamine-3-kinase,Homo sapiens
+CHEMBL4295965,TGF-beta-activated kinase 1 and MAP3K7-binding protein 2,Homo sapiens
+CHEMBL4295978,N-acetyl-D-glucosamine kinase,Homo sapiens
+CHEMBL4295983,MAPK/MAK/MRK overlapping kinase,Homo sapiens
+CHEMBL4295998,Mitotic checkpoint serine/threonine-protein kinase BUB1 beta,Homo sapiens
+CHEMBL4296242,Connector enhancer of kinase suppressor of ras 1,Homo sapiens
+CHEMBL4523108,TANK-binding kinase 1-binding protein 1,Homo sapiens
+CHEMBL4523135,Inositol hexakisphosphate and diphosphoinositol-pentakisphosphate kinase 2,Homo sapiens
+CHEMBL4523326,Cyclin-dependent kinase-like 4,Homo sapiens
+CHEMBL4523401,Inositol polyphosphate multikinase,Homo sapiens
+CHEMBL4523418,Inositol hexakisphosphate kinase 1,Homo sapiens
+CHEMBL4523431,Inositol hexakisphosphate kinase 3,Homo sapiens
+CHEMBL4523432,Serine/threonine-protein kinase LMTK3,Homo sapiens
+CHEMBL4523434,Bifunctional polynucleotide phosphatase/kinase,Homo sapiens
+CHEMBL4523488,Inositol hexakisphosphate kinase 2,Homo sapiens
+CHEMBL4523504,Bifunctional UDP-N-acetylglucosamine 2-epimerase/N-acetylmannosamine kinase,Homo sapiens
+CHEMBL4524035,Serine/threonine-protein kinase H1,Homo sapiens
+CHEMBL4665585,Inactive tyrosine-protein kinase transmembrane receptor ROR1,Homo sapiens
+CHEMBL4680027,Cyclin-dependent kinase inhibitor 2A,Homo sapiens
+CHEMBL4802064,Phosphatidylinositol 4-phosphate 5-kinase type-1 beta,Homo sapiens
+CHEMBL4804244,Myristoylated alanine-rich C-kinase substrate,Homo sapiens
+CHEMBL4879410,Branched-chain alpha-ketoacid dehydrogenase kinase,Homo sapiens
+CHEMBL4879437,Inactive serine/threonine-protein kinase 19,Homo sapiens
+CHEMBL4879492,Extracellular serine/threonine protein kinase FAM20C,Homo sapiens
+CHEMBL5465280,Diacylglycerol kinase iota,Homo sapiens
+CHEMBL5465316,Diacylglycerol kinase kappa,Homo sapiens
+CHEMBL5724680,Fructosamine-3-kinase,Homo sapiens
+CHEMBL6066155,Alpha-protein kinase 3,Homo sapiens
+CHEMBL6066358,A-kinase anchor protein 8-like,Homo sapiens
+CHEMBL6066371,"FAST kinase domain-containing protein 5, mitochondrial",Homo sapiens
+CHEMBL6066381,Cyclin-dependent kinases regulatory subunit 2,Homo sapiens
+CHEMBL6066386,"FAST kinase domain-containing protein 1, mitochondrial",Homo sapiens
+CHEMBL6066445,Protein kinase C and casein kinase substrate in neurons protein 2,Homo sapiens
+CHEMBL6066961,"Creatine kinase U-type, mitochondrial",Homo sapiens
+CHEMBL6067265,FAST kinase domain-containing protein 4,Homo sapiens
+CHEMBL6067300,Serine/threonine-protein kinase LMTK2,Homo sapiens
+CHEMBL6067305,Triokinase/FMN cyclase,Homo sapiens
+CHEMBL6067330,Serine-threonine kinase receptor-associated protein,Homo sapiens
+CHEMBL6196088,Fas-activated serine/threonine kinase,Homo sapiens
